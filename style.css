@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 99;
+}
+#nav #nav-left{
+    height: 80px;
+    width: 80px;
+   
+ 
+}
+#nav-left #line1{
+    height: 10px;
+    width: 100px;
+    background-color: black;
+}
+#nav-left #line2{
+    height: 10px;
+    width: 100px;
+    background-color: black;
+}
+#nav-left #line3{
+    height: 10px;
+    width: 100px;
+    background-color: black;
+}
+
+
+#nav-left .line{
+    /* padding: 20px\; */
+    /* color: red; */
+    margin-top: 20px;
+}
+#nav-right button{
+   font-size: 43px;
+   padding: 20px 60px;
+   margin-left: 20px;
+   border-radius: 50px;
+   color: #5C6748;
+   border: 1px solid #5C6748;
+   background-color: transparent;
+
+}
+#nav-right button:nth-child(2){
+    background-color: #5B6647;
+    color: #fff;
+}
+#page1{
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    margin-top: -200px;
+    background-color: red;
+    position: relative;
+}
+#page1 svg{
+  
+   position: absolute;
+   margin-top: -290px;
+    scale: 0.3;
+    fill: #434B34;
+    /* background-color: aqua; */
+}
+#page1 img{
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
